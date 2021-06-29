@@ -1,5 +1,5 @@
 """
-ASGI config for myapp project.
+ASGI config for schoolplan project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
