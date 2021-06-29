@@ -123,9 +123,12 @@ class Majorform(forms.ModelForm):
         }
 class Minorform(forms.ModelForm):
     class Meta:
-        ref1 = Baseschooldata.objects.filter(type_dta='ref1').values_list('order','value')
-        ref2 = Baseschooldata.objects.filter(type_dta='ref2').values_list('order','value')
-        ref3 = Baseschooldata.objects.filter(type_dta='ref3').values_list('order','value')
+        #ref1 = Baseschooldata.objects.filter(type_dta='ref1').values_list('order','value')
+        #ref2 = Baseschooldata.objects.filter(type_dta='ref2').values_list('order','value')
+        #ref3 = Baseschooldata.objects.filter(type_dta='ref3').values_list('order','value')
+        ref1 = []
+        ref2 = []
+        ref3 = []
         _ref1 = list(ref1)
         _ref2 = list(ref2)
         _ref3 = list(ref3)
